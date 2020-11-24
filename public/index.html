@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <script >
+      config = {
+        apiKey: "AIzaSyCLj263mInKQjx03QBl4bZbASj63nMt1pA",
+        authDomain: "adikubresume.firebaseapp.com",
+        databaseURL: "https://adikubresume.firebaseio.com",
+        projectId: "adikubresume",
+        storageBucket: "adikubresume.appspot.com",
+        messagingSenderId: "974811295827",
+        appId: "1:974811295827:web:cc3e047bed64ce37d3d6a6"
+      }
+     window.firebase.initializeApp(config)
+    </script>
   </head>
   <body>
     <noscript>
