@@ -1,15 +1,25 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
+import VueRouter from 'vue-router'
 
-Vue.use(Vuex)
+import { requiresAuthMiddleware } from './middlewares'
 
-export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
+Vue.use(VueRouter)
+
+const routes = [
+  {
+    path: '/',
+    name: 'home',
+    component: HomeLayout
   }
+]
+
+const router = new VueRouter({
+  mode: 'history',
+  routes
 })
+
+router.beforeEach((to, from, next) => {
+  requiresAuthMiddleware(to, from, next)
+})
+
+export default router
