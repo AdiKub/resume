@@ -1,22 +1,22 @@
 <template>
     <div>
-        
+
     </div>
 </template>
 
 <script>
 export default {
-    components: {
+  components: {
 
-    },
-    data: () => ({
+  },
+  data: () => ({
 
-    }),
-    computed: {
-        
-    },
-    methods: {
-        
-    },
+  }),
+  computed: {
+
+  },
+  methods: {
+
+  }
 }
 </script>
