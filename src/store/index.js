@@ -5,9 +5,7 @@ Vue.use(Vuex)
 
 const getDefaultState = () => {
   return {
-    user: {
-      displayName: ''
-    }
+    experiense: {}
   }
 }
 
@@ -15,9 +13,7 @@ export default new Vuex.Store({
   state: getDefaultState(),
   mutations: {
     signOut (state) {
-      state.user = {
-        displayName: ''
-      }
+      state.experiense = ''
     }
   },
 
