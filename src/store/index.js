@@ -3,13 +3,21 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+const getDefaultState = () => {
+  return {
+    experiense: {}
+  }
+}
+
 export default new Vuex.Store({
-  state: {
-  },
+  state: getDefaultState(),
   mutations: {
+    signOut (state) {
+      state.experiense = ''
+    }
   },
+
   actions: {
-  },
-  modules: {
+    signOut: ({ commit }) => commit('signOut')
   }
 })
