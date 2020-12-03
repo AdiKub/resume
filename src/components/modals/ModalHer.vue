@@ -7,10 +7,7 @@
     :adaptive="true"
     :clickToClose="false"
   >
-    <div class="bs-modal">
-      <div class="bs-modal-header"> sdfsdfsdf sdfsdf sdfsdf</div>
-      <h1> asdasdadad </h1>
-    </div>
+ 
   </modal>
 </template>
 
