@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!--Register modals-->
     <ModalHer />
     <router-view></router-view>
   </div>
