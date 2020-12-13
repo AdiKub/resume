@@ -5,6 +5,14 @@
         <div class="bs-dashboard-content--inner">
          
         </div>
+      </div><div class="col-lg-5">
+        <div class="bs-dashboard-content--inner">
+         
+        </div>
+      </div><div class="col-lg-5">
+        <div class="bs-dashboard-content--inner">
+         
+        </div>
       </div>
     </div>
   </div>
